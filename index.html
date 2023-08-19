@@ -10,19 +10,6 @@
     background-color: pink;
 }
 
-.puhelin {
-    display: block;
-}
-
-.tabletti {
-    display: none;
-}
-
-.desktop {
-    display: none;
-}
-
-/*Extra small devices (phone, 424px and down) */
 @media (max-widht: 424px) {
        body {
             background: lightgreen;
@@ -38,8 +25,7 @@
         }
     }
 
-/*Small devices (tablets, 600px and down) */
-@media only screen and (max-widht: 600px) {
+@media (min-widht: 424px) {
         body {
             background: lightblue;
         }
@@ -54,24 +40,7 @@
         }
     }
 
-/*Medium devices (tablets, 600px and up) */
-@media only screen and (min-widht: 600px) {
-        body {
-            background: lightblue;
-        }
-        .puhelin{
-            display: none;
-        }
-        .tabletti{
-            display: block;
-        }
-        .desktop{
-            display: none;
-        }
-    }
-
-/*Large devices (laptops/desktops, 992 and up) */
-@media only screen and (min-widht: 992px) {
+@media (min-widht: 992px) {
         body {
             background: lightgrey;
         }
