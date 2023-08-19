@@ -20,7 +20,7 @@ body {
      }
  }
 
-@media only screen and(min-widht: 424px) {
+@media screen and(min-widht: 424px) {
      body {
          background: lightblue;
      }
@@ -35,7 +35,7 @@ body {
      }
  }
 
-@media only screen and (min-widht: 992px) {
+@media screen and (min-widht: 992px) {
      body {
          background: lightgrey;
      }
