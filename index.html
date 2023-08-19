@@ -3,63 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
 <title>Media query -periaatteet</title>
-
-<style>
-
-body {
-    font-size: 14px;
-    width: 800px;
-}
-
-@media screen and (max-widht: 424px) {
-       body {
-            background: lightgreen;
-            width: 100%;
-        }
-        .puhelin{
-            display: block;
-        }
-        .tabletti{
-            display: none;
-        }
-        .desktop{
-            display: none;
-        }
-    }
-
-@media only screen and(min-widht: 424px) {
-        body {
-            background: lightblue;
-        }
-        .puhelin{
-            display: none;
-        }
-        .tabletti{
-            display: block;
-        }
-        .desktop{
-            display: none;
-        }
-    }
-
-@media only screen and (min-widht: 992px) {
-        body {
-            background: lightgrey;
-        }
-        .puhelin{
-            display: none;
-        }
-        .tabletti{
-            display: none;
-        }
-        .desktop{
-            display: block;
-        }
-    }
-
-</style>
-
 </head>
 
 <body>
