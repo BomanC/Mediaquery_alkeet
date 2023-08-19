@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
     width: 800px;
+    background-color: aqua;
 }
 
 @media screen and (max-widht: 424px) {
